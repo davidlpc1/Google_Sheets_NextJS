@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    outline:0;
+    border:0;
+}
+
+main{
+    padding: 5%;
+    max-width: 900px;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 32px;
+    color: #333333;
+}
+
+ol{
+    list-style: none;
+}
+
+li{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:20px;
+}
+
+.indice{
+    padding:10px;
+    background:#6ba61e;
+    color:white;
+    margin: 0 10px
+}
+
+.name{
+    font-size: 1.4rem;
+    border-bottom: 0.2px solid #3333;
+}
+
+img{
+    max-width:250px;
+}
